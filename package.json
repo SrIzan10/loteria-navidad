@@ -1,0 +1,22 @@
+{
+  "name": "loteria-navidad",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/SrIzan10/loteria-navidad.git",
+  "author": "Izan Gil <66965250+SrIzan10@users.noreply.github.com>",
+  "license": "MIT",
+  "scripts": {
+    "dev": "tsc-watch --onSuccess \"node dist/index.js\"",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "type": "module",
+  "dependencies": {
+    "puppeteer": "^21.6.1"
+  },
+  "devDependencies": {
+    "@types/node": "^20.10.5",
+    "tsc-watch": "^6.0.4",
+    "typescript": "^5.3.3"
+  }
+}
